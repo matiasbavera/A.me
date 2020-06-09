@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import './shared/oui/oui.sass';
+import './shared/oui/main.sass';
 
 import Footer from './portfolio/Footer';
 import Projects from './portfolio/Projects';
