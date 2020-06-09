@@ -107,6 +107,11 @@
       transform: scale(1.05);
     }
 
+    div.project:hover
+    {
+            transform: scale(1.05);
+    }
+
     div.right {
       grid-template-columns: 5.1in 1fr;
 

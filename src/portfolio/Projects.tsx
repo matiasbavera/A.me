@@ -1,15 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Projects.scss';
 import Header from './Header';
 
 const Projects = () => {
+
   return (
     <>
       <title>Matias Bavera</title>
       <div id="display"></div>
       <div id="projects">
         <Header />
-        <div className="large right">
+        <div className={`large right project`}>
           <img className="screenshot" src="/resources/pictures/romi-dashboard.png" />
           <div className="description">
             <h2>
