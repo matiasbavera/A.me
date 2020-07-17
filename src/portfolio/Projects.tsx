@@ -1,9 +1,8 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './Projects.scss';
 import Header from './Header';
 
 const Projects = () => {
-
   return (
     <>
       <title>Matias Bavera</title>
@@ -11,7 +10,7 @@ const Projects = () => {
       <div id="projects">
         <Header />
         <div className={`large right project`}>
-          <img className="screenshot" src="/resources/pictures/romi-dashboard.png" />
+          <img className="screenshot" src="/me/resources/pictures/romi-dashboard.png" />
           <div className="description">
             <h2>
               <a href="https://www.openrobotics.org/">RoMi Dashboard OSRF</a>&nbsp;&middot;
