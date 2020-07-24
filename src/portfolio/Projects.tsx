@@ -22,12 +22,10 @@ const Projects = () => {
             </h2>
             <h6>
               {' '}
-              Web application that provides overall visualization and control over the RoMi-H
-              system.
+              Web application that provides overall visualization and control over robots, doors, lift, etc.
             </h6>
             <p>
-              Web application that provides overall visualization and control over the RoMi-H
-              system.
+              Collabored with the development of this Open Source project owned by OSRF (Open Source Robotic Fundation).
             </p>
             <br />
             <p>
@@ -40,6 +38,84 @@ const Projects = () => {
             </p>
           </div>
         </div>
+
+        <div className={`large right project`}>
+          <img className="screenshot" src="/me/resources/pictures/romi-dashboard.png" />
+          <div className="description">
+            <h2>
+              <a href="http://www.cba.com.py/">ERP for retail business</a>
+            </h2>
+            <h6>
+              {' '}
+              Web application ERP for retail business.
+            </h6>
+            <p> 
+              Web application ERP for retail business, it has modules for billing, collection, debt management, deposit management, product industrialization, reports, interface for bars.
+            </p>
+            <br />
+            <p>
+              <span className="tag">Python 3</span>
+              <span className="tag">Django</span>
+              <span className="tag">JavaScript</span>
+              <span className="tag">Angularjs</span>
+              <span className="tag">Docker</span>
+              <span className="tag">Minio</span>
+            </p>
+          </div>
+        </div>
+
+        <div className={`large right project`}>
+          <img className="screenshot" src="/me/resources/pictures/romi-dashboard.png" />
+          <div className="description">
+            <h2>
+              <a href="">Crash Course Typescript</a>&nbsp;&middot;
+              <a
+                className="uil uil-github light-violet"
+                title="Github"
+                href="https://github.com/matiasbavera/typescript-crash-course"
+              ></a>
+            </h2>
+            <h6>
+              {' '}
+              A crash course in TypeScript.
+            </h6>
+            <p>
+              TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+            </p>
+            <br />
+            <p>
+              <span className="tag">TypeScript</span>
+            </p>
+          </div>
+        </div>
+
+        <div className={`large right project`}>
+          <img className="screenshot" src="/me/resources/pictures/romi-dashboard.png" />
+          <div className="description">
+            <h2>
+              <a href="">Course management system</a>&nbsp;&middot;
+              <a
+                className="uil uil-github light-violet"
+                title="Github"
+                href="https://github.com/matiasbavera/typescript-crash-course"
+              ></a>
+            </h2>
+            <h6>
+              {' '}
+              Web application for course management.
+            </h6>
+            <p> 
+              Web application for course management, it has modules for billing, enrollment, students, teachers, debt creation, fees and reports.
+            </p>
+            <br />
+            <p>
+              <span className="tag">Python 3</span>
+              <span className="tag">Django</span>
+              <span className="tag">JavaScript</span>
+            </p>
+          </div>
+        </div>
+
       </div>
     </>
   );
