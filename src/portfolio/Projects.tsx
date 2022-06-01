@@ -40,32 +40,7 @@ const Projects = () => {
         </div>
 
         <div className={`large right project`}>
-          <img className="screenshot" src="/me/resources/pictures/romi-dashboard.png" />
-          <div className="description">
-            <h2>
-              <a href="http://www.cba.com.py/">ERP for retail business</a>
-            </h2>
-            <h6>
-              {' '}
-              Web application ERP for retail business.
-            </h6>
-            <p> 
-              Web application ERP for retail business, it has modules for billing, collection, debt management, deposit management, product industrialization, reports, interface for bars.
-            </p>
-            <br />
-            <p>
-              <span className="tag">Python 3</span>
-              <span className="tag">Django</span>
-              <span className="tag">JavaScript</span>
-              <span className="tag">Angularjs</span>
-              <span className="tag">Docker</span>
-              <span className="tag">Minio</span>
-            </p>
-          </div>
-        </div>
-
-        <div className={`large right project`}>
-          <img className="screenshot" src="/me/resources/pictures/romi-dashboard.png" />
+          <img className="screenshot" src="/me/resources/pictures/ts.png" />
           <div className="description">
             <h2>
               <a href="">Crash Course Typescript</a>&nbsp;&middot;
@@ -89,7 +64,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className={`large right project`}>
+        {/* <div className={`large right project`}>
           <img className="screenshot" src="/me/resources/pictures/romi-dashboard.png" />
           <div className="description">
             <h2>
@@ -114,7 +89,7 @@ const Projects = () => {
               <span className="tag">JavaScript</span>
             </p>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </>
